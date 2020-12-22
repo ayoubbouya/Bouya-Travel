@@ -1,0 +1,56 @@
+/* section programs */
+ 
+
+.title h1{
+     margin-top: 12rem;
+    
+ }
+
+ .navbar ul li {
+    padding: 0 2rem;
+ }
+
+/* form section */
+.form-section .form-container p{
+    text-align: center;
+    padding: 10px;
+}
+
+/* our reviews */
+
+
+.reviews .cover2 img {
+    width: 100%;
+}
+
+
+.reviews .reviews-container{
+   background-color:black;
+   margin-top: -.5rem;
+   padding: 10rem;
+   color: white;
+  
+}
+.reviews .reviews-container .reviews-client{
+   width: 80%;
+}
+.reviews .reviews-container .reviews-client img {
+   width: 100%;
+}
+.reviews .reviews-container .review {
+   padding: 0;
+   margin: 0rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #2F2F2F;
+
+}
+
+.reviews .reviews-container .review  .review-text {
+   padding: 3rem;
+}
+
+.reviews .reviews-container .review  .review-text p{
+   line-height: 2;
+}

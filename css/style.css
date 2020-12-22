@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body, html {
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+/* color used , yellow : #F1C324 , BUTTON : #24B8F1,  black, white */
+/* style repeated */
+
+a{
+    text-decoration: none;
+}
+
+.text-light{
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-primary{
+    color: #F1C324;
+}
+
+.py-1{
+    padding: 1rem 0;
+}
+
+.py-2{
+    padding: 2rem 0;
+}
+
+.my-1{
+    margin: 1rem 0;
+}
+ 
+/* header */
+header {
+    background: url('../img/cover.png') no-repeat center center/cover;
+    height: 100vh;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+   
+ }
+
+header .container .logo img{
+    width: 100px;
+}
+  
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+     
+ }
+
+ .navbar ul li {
+     padding: 0 1rem;
+  }
+
+  .navbar ul li a{
+      color: white;
+      font-weight: bold;
+  }
+  
+  .navbar ul li a:hover{
+    color: #F1C324 ; 
+  }
+
+  .title h1{
+      font-size: 8rem;
+      margin-top: 12rem;
+      
+   }
+   .title h3 {
+    font-size: 2rem;
+   }
+
+   /* about us */
+
+   .aboutUs {
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .aboutUs img{
+       width: 100%;
+   }
+
+   .aboutUs .aboutUs-container {
+       width: 100%;
+       padding: 5rem;
+   
+   } 
+
+   .aboutUs .aboutUs-container p{
+       margin-top: 1rem;
+       line-height: 2;
+   }
+
+   .aboutUs .aboutUs-container button{
+       background-color:#24B8F1 ;
+       color: white;
+       border: none;
+       padding: 13px 30px;
+       margin-top: 2rem;
+       font-size: 15px;
+       cursor: pointer;
+   }
+
+   .aboutUs .aboutUs-container button:hover{
+    background-color:#F1C324 ;
+    color: black;
+   }
+
+   /* our tour */
+
+.tours {
+    background-color: black;
+    color: white;
+}
+
+.tours .title-tour h1{
+    font-size: 3rem;
+ }
+
+
+.tours .container-tours .boxes-tours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tours .container-tours .boxes-tours .box-tour{  
+    margin: 20px;   
+    width: 20%;
+}
+.tours .container-tours .boxes-tours .box-tour img{
+    width: 100%;
+}
+
+.tours .container-tours .boxes-tours .box-tour p,h5{
+    margin-top: 1rem;
+    color:#6E6E6E ;
+}
+     
+.tours .container-tours .boxes-tours .box-tour button{
+    background: none;
+    color:white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    margin-top: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tours .container-tours .boxes-tours .box-tour button:hover{
+    background-color: white;
+    color:black;
+
+}
+
+/* form section */
+
+.form-section {
+    background-color: black;
+    display: flex;
+    
+
+}
+.form-section .form-img{
+   width: 50%;
+
+}
+
+.form-section .form-img img{
+    width: 100%;
+}
+.form-section .form-container {
+    width: 50%;
+    background-color: black;
+    margin: auto;
+} 
+.form-section .form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #171717;
+    width: 70%;
+} 
+.form-section .form-container p{
+    color: #6D6D6D;
+}
+
+.form-section .form-container input ,.form-section .form-container button{
+    background-color:#2F2F2F ;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    width: 80%;
+    outline: none;
+}
+
+.form-section .form-container button {
+    background-color: #F1C324;
+}
+
+.form-section .form-container button:hover{
+    background-color: #24B8F1;
+    color: black;
+}
+
+/*  Meet our team */
+.team {
+    margin-top: 3rem ;
+    margin-bottom:10rem;
+}
+.team .title-tour h1 {
+    font-size: 3rem;
+}
+
+ 
+.team .container-team {
+    display: flex;
+     justify-content: space-evenly;
+}
+
+.team .container-team .member{
+    width: 22%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px #c8c8c8;
+    
+   
+}
+ 
+
+.team .container-team .member img {
+    width: 100%;
+    
+}
+
+.team .container-team .member .member-contact i {
+    cursor: pointer;
+    color: #F1C324;
+    font-size: 2rem;
+    padding:  0 .4rem;
+}
+
+.team .container-team .member .member-contact i:hover{
+    color: #2F2F2F;
+    transform: scale(1.1);
+}
+
+/* our reviews */
+
+ .reviews .cover2 img {
+     width: 100%;
+ }
+
+
+.reviews .reviews-container{
+    background-color:black;
+    margin-top: -.5rem;
+    padding: 10rem;
+    color: white;
+   
+}
+.reviews .reviews-container .reviews-client{
+    width: 80%;
+}
+.reviews .reviews-container .reviews-client img {
+    width: 100%;
+}
+.reviews .reviews-container .review {
+    padding: 0;
+    margin: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F2F2F;
+
+}
+
+.reviews .reviews-container .review  .review-text {
+    padding: 3rem;
+}
+
+.reviews .reviews-container .review  .review-text p{
+    line-height: 2;
+}
+
+/* footer */
+footer {
+    background-color: #6E6E6E;
+    padding: 1rem;
+}
+
+footer .social-media i{
+    cursor: pointer;
+    color: #F1C324;
+    font-size: 2rem;
+    padding:  0 .4rem;
+}
