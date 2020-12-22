@@ -671,9 +671,9 @@ header .navbar {
     .navbar ul li a{
         font-size: large;
     }
-    .title h1{
-         margin-top: 25rem;
-     }
+    .title h1 {
+    margin-top: 12rem;
+}
 
      .navbar ul li {
         padding: 0 3rem;
