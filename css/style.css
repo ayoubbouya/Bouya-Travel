@@ -569,9 +569,10 @@ header .navbar {
 
 /* container on cover */
 
-.title h1 {
-    font-size: 7rem;
-    margin-top: 12rem;
+.title h1{
+    font-size: 4rem;
+    margin-top: 22rem;
+
 }
 
 .title h3{
@@ -639,6 +640,8 @@ header .navbar {
 
 .reviews .reviews-container .review{
     flex-direction: column;
+    margin: 4rem;
+
 }
 .reviews .reviews-container .reviews-client{
     width: 100%;
@@ -646,6 +649,8 @@ header .navbar {
 .reviews .reviews-container{
      padding: 2.5rem;
 }
+ 
+
    } 
 
 
@@ -671,8 +676,8 @@ header .navbar {
         font-size: large;
     }
     .title h1 {
-    margin-top: 12rem;
-}
+        margin-top: 12rem;
+    }
 
      .navbar ul li {
         padding: 0 3rem;
