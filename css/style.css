@@ -352,10 +352,16 @@ header .navbar {
     font-size: 1rem;
 }
 
+
+
 /* about us */
 
 .aboutUs{
     flex-direction: column;
+}
+
+.aboutUs .aboutUs-container {
+    padding: 3rem;
 }
 
 /* our tour */
@@ -568,9 +574,11 @@ header .navbar {
 } 
 
 /* container on cover */
-.title h1 {
-    font-size: 6rem;
-    margin-top: 16rem;
+
+.title h1{
+    font-size: 4rem;
+    margin-top: 22rem;
+
 }
 
 .title h3{
